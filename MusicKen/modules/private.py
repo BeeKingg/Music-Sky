@@ -14,27 +14,27 @@ logging.basicConfig(level=logging.INFO)
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAFF-KFg-jaEvlhu_kNknYQjxsuyDvp--AACjAMAAtpWSVeocCICILIfRSAE")
     await message.reply_text(
-        f"""👋🏻 Hallo, Nama saya [{PROJECT_NAME}](https://telegra.ph/file/ed136c19e7f6afddb4912.jpg)
-Dikekolah oleh @{OWNER}
+        f"""👋🏻 Hallo, saya adalah  [{PROJECT_NAME}] yang dapat memutar lagu di group maupun di channel dengan cara yang mudah." 
+👩‍💻 Dikekola oleh @{OWNER}
 ┈───────────────────┈
-☑️ Saya memiliki banyak fitur untuk anda yang suka lagu
-🔘 Memutar lagu di group 
-🔘 Mendownload lagu
-🔘 Mencari link youtube
-🔘 Mencari lirik lagu
+⚡ Saya memiliki banyak fitur seperti :
+📍 Memutar lagu di group 
+📍 Mendownload lagu
+📍 Mencari link youtube
+📍 Mencari lirik lagu
 ┈───────────────────┈
-☑️ Klik tombol bantuan untuk informasi lebih lanjut
+❇️ Klik tombol bantuan untuk informasi lebih lanjut.
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚔️ ʙᴀɴᴛᴜᴀɴ", callback_data = f"help+1"),
+                        "💡 ʙᴀɴᴛᴜᴀɴ", callback_data = f"help+1"),
                     InlineKeyboardButton(
-                        "ᴛᴀᴍʙᴀʜᴋᴀɴ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+                        "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "👥 ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"), 
+                        "📮 ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"), 
                     InlineKeyboardButton(
                         "ᴄʜᴀɴɴᴇʟ 📣", url=f"https://t.me/{UPDATES_CHANNEL}")],
                 [
@@ -94,7 +94,7 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
-            [InlineKeyboardButton(text = '⚔️ ʙᴀɴᴛᴜᴀɴ', callback_data = f"help+1"),
+            [InlineKeyboardButton(text = '💡 ʙᴀɴᴛᴜᴀɴ', callback_data = f"help+1"),
              InlineKeyboardButton(text = 'ᴛᴀᴍʙᴀʜᴋᴀɴ ➕', url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
              InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")]
@@ -115,7 +115,7 @@ async def ghelp(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚔️ ʙᴀɴᴛᴜᴀɴ", url = "https://telegra.ph/PANDUAN-MUSIK-07-23")
+                    InlineKeyboardButton("🎛️ ʙᴀɴᴛᴜᴀɴ", url = "https://t.me/BeKing_Bots/9")
                 ]
             ]
         ),
@@ -135,7 +135,7 @@ async def reload(client: Client, message: Message):
                         "💬 GROUP", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "OWNER 👮", url=f"https://t.me/{OWNER}"
+                        "OWNER 👩‍💻", url=f"https://t.me/{OWNER}"
                     )
                 ]
             ]
