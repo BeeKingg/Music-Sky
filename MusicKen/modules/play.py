@@ -564,8 +564,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💬GROUP", url=f"https://t.me/{supportgroup}"),
-                    InlineKeyboardButton("💌CHANNEL", url=f"https://t.me/{updateschannel}"),
+                    InlineKeyboardButton("📍 GROUP", url=f"https://t.me/{supportgroup}"),
+                    InlineKeyboardButton("📮 CHANNEL", url=f"https://t.me/{updateschannel}"),
                 ],
                 [ 
                     InlineKeyboardButton(text="🗑 Close", callback_data="cls"), 
@@ -648,8 +648,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💬GROUP", url=f"https://t.me/{supportgroup}"),
-                    InlineKeyboardButton("💌CHANNEL", url=f"https://t.me/{updateschannel}"),
+                    InlineKeyboardButton("📍 GROUP", url=f"https://t.me/{supportgroup}"),
+                    InlineKeyboardButton("📮 CHANNEL", url=f"https://t.me/{updateschannel}"),
                 ],
                 [ 
                     InlineKeyboardButton(text="🗑 Close", callback_data="cls"), 
@@ -789,8 +789,8 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💬GROUP", url=f"https://t.me/{supportgroup}"),
-                    InlineKeyboardButton("💌CHANNEL", url=f"https://t.me/{updateschannel}"),
+                    InlineKeyboardButton("📍 GROUP", url=f"https://t.me/{supportgroup}"),
+                    InlineKeyboardButton("📮 CHANNEL", url=f"https://t.me/{updateschannel}"),
                 ],
                 [ 
                     InlineKeyboardButton(text="🗑 Close", callback_data="cls"), 
@@ -927,7 +927,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="💌CHANNEL", url=f"https://t.me/{updateschannel}")],
+            [InlineKeyboardButton(text="📮 CHANNEL", url=f"https://t.me/{updateschannel}")],
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1022,8 +1022,8 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💬GROUP", url=f"https://t.me/{supportgroup}"),
-                    InlineKeyboardButton("💌CHANNEL", url=f"https://t.me/{updateschannel}"),
+                    InlineKeyboardButton("👩‍💻 OWNER", url=f"https://t.me/{owner}"),
+                    InlineKeyboardButton("📮 CHANNEL", url=f"https://t.me/{updateschannel}"),
                 ],
                 [ 
                     InlineKeyboardButton(text="🗑 Close", callback_data="cls"),
