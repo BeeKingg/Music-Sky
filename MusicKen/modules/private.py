@@ -38,7 +38,7 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(
                         "ᴄʜᴀɴɴᴇʟ 📣", url=f"https://t.me/{UPDATES_CHANNEL}")],
                 [
-                    InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}")
+                    InlineKeyboardButton("🎁 𝙳𝙾𝙽𝙰𝚂𝙸 🎁", url=f"boyfriendnice")
                 ]        
             ]
         ),
@@ -95,9 +95,9 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton(text = '💡 ʙᴀɴᴛᴜᴀɴ', callback_data = f"help+1"),
-             InlineKeyboardButton(text = 'ᴛᴀᴍʙᴀʜᴋᴀɴ ➕', url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
-             InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")]
+             InlineKeyboardButton(text = '➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ➕', url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton(text = '📍 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
+             InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📮', url=f"https://t.me/{UPDATES_CHANNEL}")]
         ]
     else:
         button = [
@@ -115,7 +115,7 @@ async def ghelp(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🎛️ ʙᴀɴᴛᴜᴀɴ", url = "https://t.me/BeKing_Bots/9")
+                    InlineKeyboardButton("📜𝙲𝙰𝚁𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰𝙰𝙽 𝙱𝙾𝚃📜", url = "https://t.me/BeKing_Bots/9")
                 ]
             ]
         ),
@@ -132,7 +132,7 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 GROUP", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "📍 GROUP", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
                         "OWNER 👩‍💻", url=f"https://t.me/{OWNER}"
