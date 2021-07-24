@@ -1,7 +1,17 @@
 import os
 from MusicKen.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL, OWNER
 class Messages():
-      START_MSG(
+      START_MSG = "**👋🏻 Hallo, saya adalah  [{PROJECT_NAME}] yang dapat memutar lagu di group maupun di channel dengan cara yang mudah." 
+👩‍💻 Dikekola oleh @{OWNER}
+┈───────────────────┈
+⚡ Saya memiliki banyak fitur seperti :
+📍 Memutar lagu di group 
+📍 Mendownload lagu
+📍 Mencari link youtube
+📍 Mencari lirik lagu
+┈───────────────────┈
+❇️ Klik tombol bantuan untuk informasi lebih lanjut.
+
       HELP_MSG = [
         ".",
 f"""
