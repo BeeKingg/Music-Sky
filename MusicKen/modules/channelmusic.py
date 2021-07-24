@@ -522,8 +522,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💬GROUP", url=f"https://t.me/{supportgroup}"),
-                    InlineKeyboardButton("💌CHANNEL", url=f"https://t.me/{updateschannel}"),
+                    InlineKeyboardButton("👩‍💻 OWNER", url=f"https://t.me/boyfriendnice"),
+                    InlineKeyboardButton("📮 CHANNEL", url=f"https://t.me/BeKing_Bots"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -656,7 +656,7 @@ async def deezer(client: Client, message_: Message):
             [
                 [
                     InlineKeyboardButton("📖 Daftar Putar", callback_data="playlist"),
-                    InlineKeyboardButton("💌CHANNEL", url=f"https://t.me/{updateschannel}"),
+                    InlineKeyboardButton("📮 CHANNEL", url=f"https://t.me/BeKing_Bots"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -785,7 +785,7 @@ async def jiosaavn(client: Client, message_: Message):
             [
                 [
                     InlineKeyboardButton("📖 Daftar Putar", callback_data="playlist"),
-                    InlineKeyboardButton("💌CHANNEL", url=f"https://t.me/{updateschannel}"),
+                    InlineKeyboardButton("📮 CHANNEL", url=f"https://t.me/BeKing_Bots"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
