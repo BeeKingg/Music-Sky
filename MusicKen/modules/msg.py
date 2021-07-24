@@ -105,18 +105,5 @@ f"""
 - /musicplayer [on/off]: Aktifkan/Nonaktifkan Pemutar Musik
 - /admincache: Memperbarui Info Admin Grup Anda. Coba Jika Bot Tidak Mengenali Admin
 - /userbotjoin: Undang @{ASSISTANT_NAME} Userbot Ke Grup Anda
-""",
-f"""
-👋🏻 Hallo, saya adalah  [{PROJECT_NAME}] yang dapat memutar lagu di group maupun di channel dengan cara yang mudah." 
-👩‍💻 Dikekola oleh @{OWNER}
-┈───────────────────┈
-⚡ Saya memiliki banyak fitur seperti :
-📍 Memutar lagu di group 
-📍 Mendownload lagu
-📍 Mencari link youtube
-📍 Mencari lirik lagu
-┈───────────────────┈
-❇️ Klik tombol bantuan untuk informasi lebih lanjut.
-
 """
       ]
