@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAFF-KFg-jaEvlhu_kNknYQjxsuyDvp--AACjAMAAtpWSVeocCICILIfRSAE")
     await message.reply_text(
-        f"""👋🏻 Hallo, saya adalah  [{PROJECT_NAME}] yang dapat memutar lagu di group maupun di channel dengan cara yang mudah." 
+        f"""<b>👋🏻 Hallo, saya adalah  [{PROJECT_NAME}] yang dapat memutar lagu di group maupun di channel dengan cara yang mudah. 
 👩‍💻 Dikekola oleh @{OWNER}
 ┈───────────────────┈
 ⚡ Saya memiliki banyak fitur seperti :
