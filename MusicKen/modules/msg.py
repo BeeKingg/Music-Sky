@@ -96,16 +96,16 @@ f"""
 - /userbotjoin: Undang @{ASSISTANT_NAME} Userbot Ke Grup Anda
 """,
 f"""
-👋🏻 Hallo, Nama saya [{PROJECT_NAME}](https://telegra.ph/file/ed136c19e7f6afddb4912.jpg)
-Dikekolah oleh @{OWNER}
+👋🏻 Hallo, saya adalah  [{PROJECT_NAME}] yang dapat memutar lagu di group maupun di channel dengan cara yang mudah." 
+👩‍💻 Dikekola oleh @{OWNER}
 ┈───────────────────┈
-☑️ Saya memiliki banyak fitur untuk anda yang suka lagu
-🔘 Memutar lagu di group 
-🔘 Mendownload lagu
-🔘 Mencari link youtube
-🔘 Mencari lirik lagu
+⚡ Saya memiliki banyak fitur seperti :
+📍 Memutar lagu di group 
+📍 Mendownload lagu
+📍 Mencari link youtube
+📍 Mencari lirik lagu
 ┈───────────────────┈
-☑️ Klik tombol bantuan untuk informasi lebih lanjut
+❇️ Klik tombol bantuan untuk informasi lebih lanjut.
 
 """
       ]
