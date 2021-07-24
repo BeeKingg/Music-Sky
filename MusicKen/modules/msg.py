@@ -1,6 +1,7 @@
 import os
 from MusicKen.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL, OWNER
 class Messages():
+      START_MSG(
       HELP_MSG = [
         ".",
 f"""
