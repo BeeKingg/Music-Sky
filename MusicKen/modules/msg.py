@@ -106,6 +106,5 @@ Dikekolah oleh @{OWNER}
 🔘 Mencari lirik lagu
 ┈───────────────────┈
 ☑️ Klik tombol bantuan untuk informasi lebih lanjut
-
 """
-   ]
+      ]
