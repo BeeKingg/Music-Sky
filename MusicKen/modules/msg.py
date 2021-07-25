@@ -1,8 +1,7 @@
 import os
 from MusicKen.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL, OWNER
 class Messages():
-      START_MSG = "**👋🏻 Hallo, saya adalah  [{PROJECT_NAME}] yang dapat memutar lagu di group maupun di channel dengan cara yang mudah." 
-      HELP_MSG = [
+        HELP_MSG = [
         ".",
 f"""
 **👋🏻 Hai Selamat Datang Kembali Di [{PROJECT_NAME}](https://telegra.ph/file/2edffd441802313ea985f.jpg)
@@ -95,7 +94,7 @@ f"""
 - /musicplayer [on/off]: Aktifkan/Nonaktifkan Pemutar Musik
 - /admincache: Memperbarui Info Admin Grup Anda. Coba Jika Bot Tidak Mengenali Admin
 - /userbotjoin: Undang @{ASSISTANT_NAME} Userbot Ke Grup Anda
-"""
+""",
 f"""
 👋🏻 Hallo, Nama saya [{PROJECT_NAME}](https://telegra.ph/file/ed136c19e7f6afddb4912.jpg)
 Dikekolah oleh @{OWNER}
@@ -107,4 +106,6 @@ Dikekolah oleh @{OWNER}
 🔘 Mencari lirik lagu
 ┈───────────────────┈
 ☑️ Klik tombol bantuan untuk informasi lebih lanjut
-      ]
+
+"""
+   ]
